@@ -1,0 +1,30 @@
+C:\Users\WIN\Google Drive\proposta\bin\Debug\GeradorDeProposta.exe.config
+C:\Users\WIN\Google Drive\proposta\bin\Debug\Dados.sdf
+C:\Users\WIN\Google Drive\proposta\bin\Debug\GeradorDeProposta.exe
+C:\Users\WIN\Google Drive\proposta\bin\Debug\GeradorDeProposta.pdb
+C:\Users\WIN\Google Drive\proposta\bin\Debug\EntityFramework.dll
+C:\Users\WIN\Google Drive\proposta\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WIN\Google Drive\proposta\bin\Debug\EntityFramework.xml
+C:\Users\WIN\Google Drive\proposta\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WIN\Google Drive\proposta\obj\Debug\GeradorDeProposta.csprojResolveAssemblyReference.cache
+C:\Users\WIN\Google Drive\proposta\obj\Debug\GeradorDeProposta.Principal.resources
+C:\Users\WIN\Google Drive\proposta\obj\Debug\GeradorDeProposta.Properties.Resources.resources
+C:\Users\WIN\Google Drive\proposta\obj\Debug\GeradorDeProposta.csproj.GenerateResource.Cache
+C:\Users\WIN\Google Drive\proposta\obj\Debug\GeradorDeProposta.exe
+C:\Users\WIN\Google Drive\proposta\obj\Debug\GeradorDeProposta.pdb
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\GeradorDeProposta.exe.config
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Debug\GeradorDeProposta.exe
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Debug\GeradorDeProposta.pdb
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Debug\GeradorDeProposta.csprojResolveAssemblyReference.cache
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Debug\GeradorDeProposta.Principal.resources
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Debug\GeradorDeProposta.Properties.Resources.resources
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Debug\GeradorDeProposta.csproj.GenerateResource.Cache
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\Dados.sdf
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\GeradorDeProposta.exe
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\GeradorDeProposta.pdb
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\EntityFramework.dll
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\EntityFramework.xml
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Debug\PT\System.Data.SqlServerCe.resources.dll

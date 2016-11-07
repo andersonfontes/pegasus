@@ -1,0 +1,47 @@
+C:\proposta\bin\Release\GeradorDeProposta.exe.config
+C:\proposta\bin\Release\Dados.mdf
+C:\proposta\bin\Release\Dados_log.ldf
+C:\proposta\bin\Release\GeradorDeProposta.exe
+C:\proposta\bin\Release\GeradorDeProposta.pdb
+C:\proposta\bin\Release\EntityFramework.dll
+C:\proposta\bin\Release\EntityFramework.SqlServer.dll
+C:\proposta\bin\Release\EntityFramework.xml
+C:\proposta\bin\Release\EntityFramework.SqlServer.xml
+C:\proposta\obj\Release\GeradorDeProposta.Principal.resources
+C:\proposta\obj\Release\GeradorDeProposta.Properties.Resources.resources
+C:\proposta\obj\Release\GeradorDeProposta.csproj.GenerateResource.Cache
+C:\proposta\obj\Release\GeradorDeProposta.exe
+C:\proposta\obj\Release\GeradorDeProposta.pdb
+C:\Users\WIN\Google Drive\proposta\bin\Release\GeradorDeProposta.exe.config
+C:\Users\WIN\Google Drive\proposta\obj\Release\GeradorDeProposta.exe
+C:\Users\WIN\Google Drive\proposta\obj\Release\GeradorDeProposta.pdb
+C:\Users\WIN\Google Drive\proposta\bin\Release\Dados.sdf
+C:\Users\WIN\Google Drive\proposta\bin\Release\GeradorDeProposta.exe
+C:\Users\WIN\Google Drive\proposta\bin\Release\GeradorDeProposta.pdb
+C:\Users\WIN\Google Drive\proposta\bin\Release\EntityFramework.dll
+C:\Users\WIN\Google Drive\proposta\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\WIN\Google Drive\proposta\bin\Release\EntityFramework.xml
+C:\Users\WIN\Google Drive\proposta\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\WIN\Google Drive\proposta\obj\Release\GeradorDeProposta.csprojResolveAssemblyReference.cache
+C:\Users\WIN\Google Drive\proposta\obj\Release\GeradorDeProposta.Principal.resources
+C:\Users\WIN\Google Drive\proposta\obj\Release\GeradorDeProposta.Properties.Resources.resources
+C:\Users\WIN\Google Drive\proposta\obj\Release\GeradorDeProposta.csproj.GenerateResource.Cache
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\GeradorDeProposta.exe.config
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\GeradorDeProposta.exe
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\GeradorDeProposta.pdb
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\Dados.sdf
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\GeradorDeProposta.exe
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\GeradorDeProposta.pdb
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\EntityFramework.dll
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\EntityFramework.xml
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\GeradorDeProposta.csprojResolveAssemblyReference.cache
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\GeradorDeProposta.Principal.resources
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\GeradorDeProposta.Properties.Resources.resources
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\GeradorDeProposta.csproj.GenerateResource.Cache
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\PT\System.Data.SqlServerCe.resources.dll
+D:\-- FONTES\proposta\bin\Release\GeradorDeProposta.exe.config
+D:\-- FONTES\proposta\obj\Release\GeradorDeProposta.exe
+D:\-- FONTES\proposta\obj\Release\GeradorDeProposta.pdb

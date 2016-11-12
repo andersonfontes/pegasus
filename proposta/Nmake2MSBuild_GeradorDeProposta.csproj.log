@@ -1,0 +1,1206 @@
+Convert             :	Verbose  : 07/11/2016 14:57:33
+ConvertFile         :	Information  : Converting "D:\-- FONTES\proposta\GeradorDeProposta.csproj"
+Parse               :	Verbose  : File contents after preprocessing:
+                                 	<?xml version="1.0" encoding="utf-8"?>
+                                 	<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+                                 	  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+                                 	  <PropertyGroup>
+                                 	    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+                                 	    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+                                 	    <ProjectGuid>{E38EE632-201B-41BF-BDF6-3807E490C9DD}</ProjectGuid>
+                                 	    <OutputType>WinExe</OutputType>
+                                 	    <AppDesignerFolder>Properties</AppDesignerFolder>
+                                 	    <RootNamespace>GeradorDeProposta</RootNamespace>
+                                 	    <AssemblyName>GeradorDeProposta</AssemblyName>
+                                 	    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+                                 	    <FileAlignment>512</FileAlignment>
+                                 	    <IsWebBootstrapper>false</IsWebBootstrapper>
+                                 	    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+                                 	    <RestorePackages>true</RestorePackages>
+                                 	    <PublishUrl>publish\</PublishUrl>
+                                 	    <Install>true</Install>
+                                 	    <InstallFrom>Disk</InstallFrom>
+                                 	    <UpdateEnabled>false</UpdateEnabled>
+                                 	    <UpdateMode>Foreground</UpdateMode>
+                                 	    <UpdateInterval>7</UpdateInterval>
+                                 	    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+                                 	    <UpdatePeriodically>false</UpdatePeriodically>
+                                 	    <UpdateRequired>false</UpdateRequired>
+                                 	    <MapFileExtensions>true</MapFileExtensions>
+                                 	    <ApplicationRevision>0</ApplicationRevision>
+                                 	    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+                                 	    <UseApplicationTrust>false</UseApplicationTrust>
+                                 	    <BootstrapperEnabled>true</BootstrapperEnabled>
+                                 	  </PropertyGroup>
+                                 	  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+                                 	    <PlatformTarget>AnyCPU</PlatformTarget>
+                                 	    <DebugSymbols>true</DebugSymbols>
+                                 	    <DebugType>full</DebugType>
+                                 	    <Optimize>false</Optimize>
+                                 	    <OutputPath>bin\Debug\</OutputPath>
+                                 	    <DefineConstants>DEBUG;TRACE</DefineConstants>
+                                 	    <ErrorReport>prompt</ErrorReport>
+                                 	    <WarningLevel>4</WarningLevel>
+                                 	  </PropertyGroup>
+                                 	  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+                                 	    <PlatformTarget>AnyCPU</PlatformTarget>
+                                 	    <DebugType>pdbonly</DebugType>
+                                 	    <Optimize>true</Optimize>
+                                 	    <OutputPath>bin\Release\</OutputPath>
+                                 	    <DefineConstants>TRACE</DefineConstants>
+                                 	    <ErrorReport>prompt</ErrorReport>
+                                 	    <WarningLevel>4</WarningLevel>
+                                 	  </PropertyGroup>
+                                 	  <ItemGroup>
+                                 	    <Reference Include="EntityFramework">
+                                 	      <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+                                 	    </Reference>
+                                 	    <Reference Include="EntityFramework.SqlServer">
+                                 	      <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+                                 	    </Reference>
+                                 	    <Reference Include="System" />
+                                 	    <Reference Include="System.ComponentModel.DataAnnotations" />
+                                 	    <Reference Include="System.Configuration" />
+                                 	    <Reference Include="System.Core" />
+                                 	    <Reference Include="System.Data.SqlServerCe, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+                                 	      <SpecificVersion>False</SpecificVersion>
+                                 	      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.dll</HintPath>
+                                 	    </Reference>
+                                 	    <Reference Include="System.Data.SqlServerCe.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+                                 	      <SpecificVersion>False</SpecificVersion>
+                                 	      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.Entity.dll</HintPath>
+                                 	    </Reference>
+                                 	    <Reference Include="System.Data.SqlServerCe.Entity.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+                                 	      <SpecificVersion>False</SpecificVersion>
+                                 	      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.Entity.resources.dll</HintPath>
+                                 	    </Reference>
+                                 	    <Reference Include="System.Data.SqlServerCe.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+                                 	      <SpecificVersion>False</SpecificVersion>
+                                 	      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.resources.dll</HintPath>
+                                 	    </Reference>
+                                 	    <Reference Include="System.Data.SqlXml" />
+                                 	    <Reference Include="System.Runtime.Serialization" />
+                                 	    <Reference Include="System.Security" />
+                                 	    <Reference Include="System.Xml.Linq" />
+                                 	    <Reference Include="System.Data.DataSetExtensions" />
+                                 	    <Reference Include="Microsoft.CSharp" />
+                                 	    <Reference Include="System.Data" />
+                                 	    <Reference Include="System.Deployment" />
+                                 	    <Reference Include="System.Drawing" />
+                                 	    <Reference Include="System.Windows.Forms" />
+                                 	    <Reference Include="System.Xml" />
+                                 	  </ItemGroup>
+                                 	  <ItemGroup>
+                                 	    <Compile Include="classes\AssemblyInfo.cs" />
+                                 	    <Compile Include="classes\circleElement.cs" />
+                                 	    <Compile Include="classes\imageElement.cs" />
+                                 	    <Compile Include="classes\ItemDeProposta.cs" />
+                                 	    <Compile Include="classes\ItensDeProposta.cs" />
+                                 	    <Compile Include="classes\IWritable.cs" />
+                                 	    <Compile Include="classes\lineElement.cs" />
+                                 	    <Compile Include="DadosDataSet1.Designer.cs">
+                                 	      <AutoGen>True</AutoGen>
+                                 	      <DesignTime>True</DesignTime>
+                                 	      <DependentUpon>DadosDataSet1.xsd</DependentUpon>
+                                 	    </Compile>
+                                 	    <Compile Include="classes\paragraphElement.cs" />
+                                 	    <Compile Include="classes\paragraphLine.cs" />
+                                 	    <Compile Include="classes\pdfBadColumnIndexException.cs" />
+                                 	    <Compile Include="classes\pdfBufferErrorException.cs" />
+                                 	    <Compile Include="classes\pdfColor.cs" />
+                                 	    <Compile Include="classes\pdfDocument.cs" />
+                                 	    <Compile Include="classes\pdfElement.cs" />
+                                 	    <Compile Include="classes\pdfException.cs" />
+                                 	    <Compile Include="classes\pdfFont.cs" />
+                                 	    <Compile Include="classes\pdfHeader.cs" />
+                                 	    <Compile Include="classes\pdfImageIOException.cs" />
+                                 	    <Compile Include="classes\pdfImageNotFoundException.cs" />
+                                 	    <Compile Include="classes\pdfIncorrectColumnException.cs" />
+                                 	    <Compile Include="classes\pdfIncorrectParagraghException.cs" />
+                                 	    <Compile Include="classes\pdfIncorrectRowException.cs" />
+                                 	    <Compile Include="classes\pdfInfo.cs" />
+                                 	    <Compile Include="classes\pdfLineStyle.cs" />
+                                 	    <Compile Include="classes\pdfOutlines.cs" />
+                                 	    <Compile Include="classes\pdfPage.cs" />
+                                 	    <Compile Include="classes\pdfPageTree.cs" />
+                                 	    <Compile Include="classes\pdfTable.cs" />
+                                 	    <Compile Include="classes\pdfTableColumn.cs" />
+                                 	    <Compile Include="classes\pdfTableHeader.cs" />
+                                 	    <Compile Include="classes\pdfTableRow.cs" />
+                                 	    <Compile Include="classes\pdfTableRowStyle.cs" />
+                                 	    <Compile Include="classes\pdfTrailer.cs" />
+                                 	    <Compile Include="classes\pdfWritingErrorException.cs" />
+                                 	    <Compile Include="classes\predefindeLineStyle.cs" />
+                                 	    <Compile Include="classes\predefinedAlignment.cs" />
+                                 	    <Compile Include="classes\predefinedColor.cs" />
+                                 	    <Compile Include="classes\predefinedFont.cs" />
+                                 	    <Compile Include="Principal.cs">
+                                 	      <SubType>Form</SubType>
+                                 	    </Compile>
+                                 	    <Compile Include="Principal.Designer.cs">
+                                 	      <DependentUpon>Principal.cs</DependentUpon>
+                                 	    </Compile>
+                                 	    <Compile Include="classes\Program.cs" />
+                                 	    <Compile Include="Properties\AssemblyInfo.cs" />
+                                 	    <Compile Include="classes\Proposta.cs" />
+                                 	    <Compile Include="classes\rectangleElement.cs" />
+                                 	    <Compile Include="classes\textAdapter.cs" />
+                                 	    <Compile Include="classes\textElement.cs" />
+                                 	    <EmbeddedResource Include="Principal.resx">
+                                 	      <DependentUpon>Principal.cs</DependentUpon>
+                                 	    </EmbeddedResource>
+                                 	    <EmbeddedResource Include="Properties\Resources.resx">
+                                 	      <Generator>ResXFileCodeGenerator</Generator>
+                                 	      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+                                 	      <SubType>Designer</SubType>
+                                 	    </EmbeddedResource>
+                                 	    <Compile Include="Properties\Resources.Designer.cs">
+                                 	      <AutoGen>True</AutoGen>
+                                 	      <DependentUpon>Resources.resx</DependentUpon>
+                                 	    </Compile>
+                                 	    <None Include="DadosDataSet1.xsc">
+                                 	      <DependentUpon>DadosDataSet1.xsd</DependentUpon>
+                                 	    </None>
+                                 	    <None Include="DadosDataSet1.xsd">
+                                 	      <Generator>MSDataSetGenerator</Generator>
+                                 	      <LastGenOutput>DadosDataSet1.Designer.cs</LastGenOutput>
+                                 	      <SubType>Designer</SubType>
+                                 	    </None>
+                                 	    <None Include="DadosDataSet1.xss">
+                                 	      <DependentUpon>DadosDataSet1.xsd</DependentUpon>
+                                 	    </None>
+                                 	    <None Include="packages.config">
+                                 	      <SubType>Designer</SubType>
+                                 	    </None>
+                                 	    <None Include="Properties\DataSources\GeradorDeProposta.Properties.Resources.datasource" />
+                                 	    <None Include="Properties\DataSources\GeradorDeProposta.Properties.Settings.datasource" />
+                                 	    <None Include="Properties\Settings.settings">
+                                 	      <Generator>SettingsSingleFileGenerator</Generator>
+                                 	      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+                                 	    </None>
+                                 	    <Compile Include="Properties\Settings.Designer.cs">
+                                 	      <AutoGen>True</AutoGen>
+                                 	      <DependentUpon>Settings.settings</DependentUpon>
+                                 	      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+                                 	    </Compile>
+                                 	  </ItemGroup>
+                                 	  <ItemGroup>
+                                 	    <None Include="App.config">
+                                 	      <SubType>Designer</SubType>
+                                 	    </None>
+                                 	  </ItemGroup>
+                                 	  <ItemGroup>
+                                 	    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+                                 	      <Visible>False</Visible>
+                                 	      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+                                 	      <Install>true</Install>
+                                 	    </BootstrapperPackage>
+                                 	    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+                                 	      <Visible>False</Visible>
+                                 	      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+                                 	      <Install>false</Install>
+                                 	    </BootstrapperPackage>
+                                 	    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+                                 	      <Visible>False</Visible>
+                                 	      <ProductName>.NET Framework 3.5 SP1</ProductName>
+                                 	      <Install>false</Install>
+                                 	    </BootstrapperPackage>
+                                 	    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+                                 	      <Visible>False</Visible>
+                                 	      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+                                 	      <Install>true</Install>
+                                 	    </BootstrapperPackage>
+                                 	  </ItemGroup>
+                                 	  <ItemGroup>
+                                 	    <Content Include="Dados.sdf">
+                                 	      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+                                 	    </Content>
+                                 	    <Content Include="images\cabeca.jpg">
+                                 	      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+                                 	    </Content>
+                                 	    <Content Include="images\RODAPE.jpg">
+                                 	      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+                                 	    </Content>
+                                 	  </ItemGroup>
+                                 	  <ItemGroup>
+                                 	    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+                                 	  </ItemGroup>
+                                 	  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+                                 	  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+                                 	  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+                                 	    <PropertyGroup>
+                                 	      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+                                 	    </PropertyGroup>
+                                 	    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+                                 	  </Target>
+                                 	  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+                                 	       Other similar extension points exist, see Microsoft.Common.targets.
+                                 	  <Target Name="BeforeBuild">
+                                 	  </Target>
+                                 	  <Target Name="AfterBuild">
+                                 	  </Target>
+                                 	  -->
+                                 	</Project>
+Parse               :	Warning  : "<?xml version="1.0" encoding="utf-8"?>" was not parsed.
+ParseIfApplies      :	Verbose  : "<?xml version="1.0" encoding="utf-8"?>" was parsed as a"None"
+Parse               :	Warning  : "<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">" was not parsed.
+ParseIfApplies      :	Verbose  : "<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">" was parsed as a"None"
+Parse               :	Warning  : "  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />" was not parsed.
+ParseIfApplies:	Verbose  : "  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />" was parsed as a"None"
+Parse         :	Warning  : "  <PropertyGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  <PropertyGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>" was not parsed.
+ParseIfApplies:	Verbose  : "    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>" was parsed as a"None"
+Parse         :	Warning  : "    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>" was not parsed.
+ParseIfApplies:	Verbose  : "    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>" was parsed as a"None"
+Parse         :	Warning  : "    <ProjectGuid>{E38EE632-201B-41BF-BDF6-3807E490C9DD}</ProjectGuid>" was not parsed.
+ParseIfApplies:	Verbose  : "    <ProjectGuid>{E38EE632-201B-41BF-BDF6-3807E490C9DD}</ProjectGuid>" was parsed as a"None"
+Parse         :	Warning  : "    <OutputType>WinExe</OutputType>" was not parsed.
+ParseIfApplies:	Verbose  : "    <OutputType>WinExe</OutputType>" was parsed as a"None"
+Parse         :	Warning  : "    <AppDesignerFolder>Properties</AppDesignerFolder>" was not parsed.
+ParseIfApplies:	Verbose  : "    <AppDesignerFolder>Properties</AppDesignerFolder>" was parsed as a"None"
+Parse         :	Warning  : "    <RootNamespace>GeradorDeProposta</RootNamespace>" was not parsed.
+ParseIfApplies:	Verbose  : "    <RootNamespace>GeradorDeProposta</RootNamespace>" was parsed as a"None"
+Parse         :	Warning  : "    <AssemblyName>GeradorDeProposta</AssemblyName>" was not parsed.
+ParseIfApplies:	Verbose  : "    <AssemblyName>GeradorDeProposta</AssemblyName>" was parsed as a"None"
+Parse         :	Warning  : "    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>" was not parsed.
+ParseIfApplies:	Verbose  : "    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>" was parsed as a"None"
+Parse         :	Warning  : "    <FileAlignment>512</FileAlignment>" was not parsed.
+ParseIfApplies:	Verbose  : "    <FileAlignment>512</FileAlignment>" was parsed as a"None"
+Parse         :	Warning  : "    <IsWebBootstrapper>false</IsWebBootstrapper>" was not parsed.
+ParseIfApplies:	Verbose  : "    <IsWebBootstrapper>false</IsWebBootstrapper>" was parsed as a"None"
+Parse         :	Warning  : "    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>" was not parsed.
+ParseIfApplies:	Verbose  : "    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>" was parsed as a"None"
+Parse         :	Warning  : "    <RestorePackages>true</RestorePackages>" was not parsed.
+ParseIfApplies:	Verbose  : "    <RestorePackages>true</RestorePackages>" was parsed as a"None"
+Parse         :	Warning  : "    <PublishUrl>publish\</PublishUrl>" was not parsed.
+ParseIfApplies:	Verbose  : "    <PublishUrl>publish\</PublishUrl>" was parsed as a"None"
+Parse         :	Warning  : "    <Install>true</Install>" was not parsed.
+ParseIfApplies:	Verbose  : "    <Install>true</Install>" was parsed as a"None"
+Parse         :	Warning  : "    <InstallFrom>Disk</InstallFrom>" was not parsed.
+ParseIfApplies:	Verbose  : "    <InstallFrom>Disk</InstallFrom>" was parsed as a"None"
+Parse         :	Warning  : "    <UpdateEnabled>false</UpdateEnabled>" was not parsed.
+ParseIfApplies:	Verbose  : "    <UpdateEnabled>false</UpdateEnabled>" was parsed as a"None"
+Parse         :	Warning  : "    <UpdateMode>Foreground</UpdateMode>" was not parsed.
+ParseIfApplies:	Verbose  : "    <UpdateMode>Foreground</UpdateMode>" was parsed as a"None"
+Parse         :	Warning  : "    <UpdateInterval>7</UpdateInterval>" was not parsed.
+ParseIfApplies:	Verbose  : "    <UpdateInterval>7</UpdateInterval>" was parsed as a"None"
+Parse         :	Warning  : "    <UpdateIntervalUnits>Days</UpdateIntervalUnits>" was not parsed.
+ParseIfApplies:	Verbose  : "    <UpdateIntervalUnits>Days</UpdateIntervalUnits>" was parsed as a"None"
+Parse         :	Warning  : "    <UpdatePeriodically>false</UpdatePeriodically>" was not parsed.
+ParseIfApplies:	Verbose  : "    <UpdatePeriodically>false</UpdatePeriodically>" was parsed as a"None"
+Parse         :	Warning  : "    <UpdateRequired>false</UpdateRequired>" was not parsed.
+ParseIfApplies:	Verbose  : "    <UpdateRequired>false</UpdateRequired>" was parsed as a"None"
+Parse         :	Warning  : "    <MapFileExtensions>true</MapFileExtensions>" was not parsed.
+ParseIfApplies:	Verbose  : "    <MapFileExtensions>true</MapFileExtensions>" was parsed as a"None"
+Parse         :	Warning  : "    <ApplicationRevision>0</ApplicationRevision>" was not parsed.
+ParseIfApplies:	Verbose  : "    <ApplicationRevision>0</ApplicationRevision>" was parsed as a"None"
+Parse         :	Warning  : "    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>" was not parsed.
+ParseIfApplies:	Verbose  : "    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>" was parsed as a"None"
+Parse         :	Warning  : "    <UseApplicationTrust>false</UseApplicationTrust>" was not parsed.
+ParseIfApplies:	Verbose  : "    <UseApplicationTrust>false</UseApplicationTrust>" was parsed as a"None"
+Parse         :	Warning  : "    <BootstrapperEnabled>true</BootstrapperEnabled>" was not parsed.
+ParseIfApplies:	Verbose  : "    <BootstrapperEnabled>true</BootstrapperEnabled>" was parsed as a"None"
+Parse         :	Warning  : "  </PropertyGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </PropertyGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">" was not parsed.
+ParseIfApplies:	Verbose  : "  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">" was parsed as a"None"
+Parse         :	Warning  : "    <PlatformTarget>AnyCPU</PlatformTarget>" was not parsed.
+ParseIfApplies:	Verbose  : "    <PlatformTarget>AnyCPU</PlatformTarget>" was parsed as a"None"
+Parse         :	Warning  : "    <DebugSymbols>true</DebugSymbols>" was not parsed.
+ParseIfApplies:	Verbose  : "    <DebugSymbols>true</DebugSymbols>" was parsed as a"None"
+Parse         :	Warning  : "    <DebugType>full</DebugType>" was not parsed.
+ParseIfApplies:	Verbose  : "    <DebugType>full</DebugType>" was parsed as a"None"
+Parse         :	Warning  : "    <Optimize>false</Optimize>" was not parsed.
+ParseIfApplies:	Verbose  : "    <Optimize>false</Optimize>" was parsed as a"None"
+Parse         :	Warning  : "    <OutputPath>bin\Debug\</OutputPath>" was not parsed.
+ParseIfApplies:	Verbose  : "    <OutputPath>bin\Debug\</OutputPath>" was parsed as a"None"
+Parse         :	Warning  : "    <DefineConstants>DEBUG;TRACE</DefineConstants>" was not parsed.
+ParseIfApplies:	Verbose  : "    <DefineConstants>DEBUG;TRACE</DefineConstants>" was parsed as a"None"
+Parse         :	Warning  : "    <ErrorReport>prompt</ErrorReport>" was not parsed.
+ParseIfApplies:	Verbose  : "    <ErrorReport>prompt</ErrorReport>" was parsed as a"None"
+Parse         :	Warning  : "    <WarningLevel>4</WarningLevel>" was not parsed.
+ParseIfApplies:	Verbose  : "    <WarningLevel>4</WarningLevel>" was parsed as a"None"
+Parse         :	Warning  : "  </PropertyGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </PropertyGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">" was not parsed.
+ParseIfApplies:	Verbose  : "  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">" was parsed as a"None"
+Parse         :	Warning  : "    <PlatformTarget>AnyCPU</PlatformTarget>" was not parsed.
+ParseIfApplies:	Verbose  : "    <PlatformTarget>AnyCPU</PlatformTarget>" was parsed as a"None"
+Parse         :	Warning  : "    <DebugType>pdbonly</DebugType>" was not parsed.
+ParseIfApplies:	Verbose  : "    <DebugType>pdbonly</DebugType>" was parsed as a"None"
+Parse         :	Warning  : "    <Optimize>true</Optimize>" was not parsed.
+ParseIfApplies:	Verbose  : "    <Optimize>true</Optimize>" was parsed as a"None"
+Parse         :	Warning  : "    <OutputPath>bin\Release\</OutputPath>" was not parsed.
+ParseIfApplies:	Verbose  : "    <OutputPath>bin\Release\</OutputPath>" was parsed as a"None"
+Parse         :	Warning  : "    <DefineConstants>TRACE</DefineConstants>" was not parsed.
+ParseIfApplies:	Verbose  : "    <DefineConstants>TRACE</DefineConstants>" was parsed as a"None"
+Parse         :	Warning  : "    <ErrorReport>prompt</ErrorReport>" was not parsed.
+ParseIfApplies:	Verbose  : "    <ErrorReport>prompt</ErrorReport>" was parsed as a"None"
+Parse         :	Warning  : "    <WarningLevel>4</WarningLevel>" was not parsed.
+ParseIfApplies:	Verbose  : "    <WarningLevel>4</WarningLevel>" was parsed as a"None"
+Parse         :	Warning  : "  </PropertyGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </PropertyGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  <ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="EntityFramework">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="EntityFramework">" was parsed as a"None"
+Parse         :	Warning  : "      <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>" was not parsed.
+ParseIfApplies:	Verbose  : "      <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>" was parsed as a"None"
+Parse         :	Warning  : "    </Reference>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Reference>" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="EntityFramework.SqlServer">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="EntityFramework.SqlServer">" was parsed as a"None"
+Parse         :	Warning  : "      <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>" was not parsed.
+ParseIfApplies:	Verbose  : "      <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>" was parsed as a"None"
+Parse         :	Warning  : "    </Reference>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Reference>" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.ComponentModel.DataAnnotations" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.ComponentModel.DataAnnotations" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Configuration" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Configuration" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Core" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Core" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Data.SqlServerCe, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Data.SqlServerCe, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was parsed as a"None"
+Parse         :	Warning  : "      <SpecificVersion>False</SpecificVersion>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SpecificVersion>False</SpecificVersion>" was parsed as a"None"
+Parse         :	Warning  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.dll</HintPath>" was not parsed.
+ParseIfApplies:	Verbose  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.dll</HintPath>" was parsed as a"None"
+Parse         :	Warning  : "    </Reference>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Reference>" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Data.SqlServerCe.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Data.SqlServerCe.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was parsed as a"None"
+Parse         :	Warning  : "      <SpecificVersion>False</SpecificVersion>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SpecificVersion>False</SpecificVersion>" was parsed as a"None"
+Parse         :	Warning  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.Entity.dll</HintPath>" was not parsed.
+ParseIfApplies:	Verbose  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.Entity.dll</HintPath>" was parsed as a"None"
+Parse         :	Warning  : "    </Reference>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Reference>" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Data.SqlServerCe.Entity.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Data.SqlServerCe.Entity.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was parsed as a"None"
+Parse         :	Warning  : "      <SpecificVersion>False</SpecificVersion>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SpecificVersion>False</SpecificVersion>" was parsed as a"None"
+Parse         :	Warning  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.Entity.resources.dll</HintPath>" was not parsed.
+ParseIfApplies:	Verbose  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.Entity.resources.dll</HintPath>" was parsed as a"None"
+Parse         :	Warning  : "    </Reference>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Reference>" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Data.SqlServerCe.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Data.SqlServerCe.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">" was parsed as a"None"
+Parse         :	Warning  : "      <SpecificVersion>False</SpecificVersion>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SpecificVersion>False</SpecificVersion>" was parsed as a"None"
+Parse         :	Warning  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.resources.dll</HintPath>" was not parsed.
+ParseIfApplies:	Verbose  : "      <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.resources.dll</HintPath>" was parsed as a"None"
+Parse         :	Warning  : "    </Reference>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Reference>" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Data.SqlXml" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Data.SqlXml" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Runtime.Serialization" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Runtime.Serialization" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Security" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Security" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Xml.Linq" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Xml.Linq" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Data.DataSetExtensions" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Data.DataSetExtensions" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="Microsoft.CSharp" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="Microsoft.CSharp" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Data" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Data" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Deployment" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Deployment" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Drawing" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Drawing" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Windows.Forms" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Windows.Forms" />" was parsed as a"None"
+Parse         :	Warning  : "    <Reference Include="System.Xml" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Reference Include="System.Xml" />" was parsed as a"None"
+Parse         :	Warning  : "  </ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  <ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\AssemblyInfo.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\AssemblyInfo.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\circleElement.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\circleElement.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\imageElement.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\imageElement.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\ItemDeProposta.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\ItemDeProposta.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\ItensDeProposta.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\ItensDeProposta.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\IWritable.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\IWritable.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\lineElement.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\lineElement.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="DadosDataSet1.Designer.cs">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="DadosDataSet1.Designer.cs">" was parsed as a"None"
+Parse         :	Warning  : "      <AutoGen>True</AutoGen>" was not parsed.
+ParseIfApplies:	Verbose  : "      <AutoGen>True</AutoGen>" was parsed as a"None"
+Parse         :	Warning  : "      <DesignTime>True</DesignTime>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DesignTime>True</DesignTime>" was parsed as a"None"
+Parse         :	Warning  : "      <DependentUpon>DadosDataSet1.xsd</DependentUpon>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DependentUpon>DadosDataSet1.xsd</DependentUpon>" was parsed as a"None"
+Parse         :	Warning  : "    </Compile>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Compile>" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\paragraphElement.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\paragraphElement.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\paragraphLine.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\paragraphLine.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfBadColumnIndexException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfBadColumnIndexException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfBufferErrorException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfBufferErrorException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfColor.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfColor.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfDocument.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfDocument.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfElement.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfElement.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfFont.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfFont.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfHeader.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfHeader.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfImageIOException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfImageIOException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfImageNotFoundException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfImageNotFoundException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfIncorrectColumnException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfIncorrectColumnException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfIncorrectParagraghException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfIncorrectParagraghException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfIncorrectRowException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfIncorrectRowException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfInfo.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfInfo.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfLineStyle.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfLineStyle.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfOutlines.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfOutlines.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfPage.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfPage.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfPageTree.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfPageTree.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfTable.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfTable.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfTableColumn.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfTableColumn.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfTableHeader.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfTableHeader.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfTableRow.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfTableRow.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfTableRowStyle.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfTableRowStyle.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfTrailer.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfTrailer.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\pdfWritingErrorException.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\pdfWritingErrorException.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\predefindeLineStyle.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\predefindeLineStyle.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\predefinedAlignment.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\predefinedAlignment.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\predefinedColor.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\predefinedColor.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\predefinedFont.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\predefinedFont.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="Principal.cs">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="Principal.cs">" was parsed as a"None"
+Parse         :	Warning  : "      <SubType>Form</SubType>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SubType>Form</SubType>" was parsed as a"None"
+Parse         :	Warning  : "    </Compile>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Compile>" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="Principal.Designer.cs">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="Principal.Designer.cs">" was parsed as a"None"
+Parse         :	Warning  : "      <DependentUpon>Principal.cs</DependentUpon>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DependentUpon>Principal.cs</DependentUpon>" was parsed as a"None"
+Parse         :	Warning  : "    </Compile>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Compile>" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\Program.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\Program.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="Properties\AssemblyInfo.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="Properties\AssemblyInfo.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\Proposta.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\Proposta.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\rectangleElement.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\rectangleElement.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\textAdapter.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\textAdapter.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="classes\textElement.cs" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="classes\textElement.cs" />" was parsed as a"None"
+Parse         :	Warning  : "    <EmbeddedResource Include="Principal.resx">" was not parsed.
+ParseIfApplies:	Verbose  : "    <EmbeddedResource Include="Principal.resx">" was parsed as a"None"
+Parse         :	Warning  : "      <DependentUpon>Principal.cs</DependentUpon>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DependentUpon>Principal.cs</DependentUpon>" was parsed as a"None"
+Parse         :	Warning  : "    </EmbeddedResource>" was not parsed.
+ParseIfApplies:	Verbose  : "    </EmbeddedResource>" was parsed as a"None"
+Parse         :	Warning  : "    <EmbeddedResource Include="Properties\Resources.resx">" was not parsed.
+ParseIfApplies:	Verbose  : "    <EmbeddedResource Include="Properties\Resources.resx">" was parsed as a"None"
+Parse         :	Warning  : "      <Generator>ResXFileCodeGenerator</Generator>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Generator>ResXFileCodeGenerator</Generator>" was parsed as a"None"
+Parse         :	Warning  : "      <LastGenOutput>Resources.Designer.cs</LastGenOutput>" was not parsed.
+ParseIfApplies:	Verbose  : "      <LastGenOutput>Resources.Designer.cs</LastGenOutput>" was parsed as a"None"
+Parse         :	Warning  : "      <SubType>Designer</SubType>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SubType>Designer</SubType>" was parsed as a"None"
+Parse         :	Warning  : "    </EmbeddedResource>" was not parsed.
+ParseIfApplies:	Verbose  : "    </EmbeddedResource>" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="Properties\Resources.Designer.cs">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="Properties\Resources.Designer.cs">" was parsed as a"None"
+Parse         :	Warning  : "      <AutoGen>True</AutoGen>" was not parsed.
+ParseIfApplies:	Verbose  : "      <AutoGen>True</AutoGen>" was parsed as a"None"
+Parse         :	Warning  : "      <DependentUpon>Resources.resx</DependentUpon>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DependentUpon>Resources.resx</DependentUpon>" was parsed as a"None"
+Parse         :	Warning  : "    </Compile>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Compile>" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="DadosDataSet1.xsc">" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="DadosDataSet1.xsc">" was parsed as a"None"
+Parse         :	Warning  : "      <DependentUpon>DadosDataSet1.xsd</DependentUpon>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DependentUpon>DadosDataSet1.xsd</DependentUpon>" was parsed as a"None"
+Parse         :	Warning  : "    </None>" was not parsed.
+ParseIfApplies:	Verbose  : "    </None>" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="DadosDataSet1.xsd">" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="DadosDataSet1.xsd">" was parsed as a"None"
+Parse         :	Warning  : "      <Generator>MSDataSetGenerator</Generator>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Generator>MSDataSetGenerator</Generator>" was parsed as a"None"
+Parse         :	Warning  : "      <LastGenOutput>DadosDataSet1.Designer.cs</LastGenOutput>" was not parsed.
+ParseIfApplies:	Verbose  : "      <LastGenOutput>DadosDataSet1.Designer.cs</LastGenOutput>" was parsed as a"None"
+Parse         :	Warning  : "      <SubType>Designer</SubType>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SubType>Designer</SubType>" was parsed as a"None"
+Parse         :	Warning  : "    </None>" was not parsed.
+ParseIfApplies:	Verbose  : "    </None>" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="DadosDataSet1.xss">" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="DadosDataSet1.xss">" was parsed as a"None"
+Parse         :	Warning  : "      <DependentUpon>DadosDataSet1.xsd</DependentUpon>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DependentUpon>DadosDataSet1.xsd</DependentUpon>" was parsed as a"None"
+Parse         :	Warning  : "    </None>" was not parsed.
+ParseIfApplies:	Verbose  : "    </None>" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="packages.config">" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="packages.config">" was parsed as a"None"
+Parse         :	Warning  : "      <SubType>Designer</SubType>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SubType>Designer</SubType>" was parsed as a"None"
+Parse         :	Warning  : "    </None>" was not parsed.
+ParseIfApplies:	Verbose  : "    </None>" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="Properties\DataSources\GeradorDeProposta.Properties.Resources.datasource" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="Properties\DataSources\GeradorDeProposta.Properties.Resources.datasource" />" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="Properties\DataSources\GeradorDeProposta.Properties.Settings.datasource" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="Properties\DataSources\GeradorDeProposta.Properties.Settings.datasource" />" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="Properties\Settings.settings">" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="Properties\Settings.settings">" was parsed as a"None"
+Parse         :	Warning  : "      <Generator>SettingsSingleFileGenerator</Generator>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Generator>SettingsSingleFileGenerator</Generator>" was parsed as a"None"
+Parse         :	Warning  : "      <LastGenOutput>Settings.Designer.cs</LastGenOutput>" was not parsed.
+ParseIfApplies:	Verbose  : "      <LastGenOutput>Settings.Designer.cs</LastGenOutput>" was parsed as a"None"
+Parse         :	Warning  : "    </None>" was not parsed.
+ParseIfApplies:	Verbose  : "    </None>" was parsed as a"None"
+Parse         :	Warning  : "    <Compile Include="Properties\Settings.Designer.cs">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Compile Include="Properties\Settings.Designer.cs">" was parsed as a"None"
+Parse         :	Warning  : "      <AutoGen>True</AutoGen>" was not parsed.
+ParseIfApplies:	Verbose  : "      <AutoGen>True</AutoGen>" was parsed as a"None"
+Parse         :	Warning  : "      <DependentUpon>Settings.settings</DependentUpon>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DependentUpon>Settings.settings</DependentUpon>" was parsed as a"None"
+Parse         :	Warning  : "      <DesignTimeSharedInput>True</DesignTimeSharedInput>" was not parsed.
+ParseIfApplies:	Verbose  : "      <DesignTimeSharedInput>True</DesignTimeSharedInput>" was parsed as a"None"
+Parse         :	Warning  : "    </Compile>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Compile>" was parsed as a"None"
+Parse         :	Warning  : "  </ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  <ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <None Include="App.config">" was not parsed.
+ParseIfApplies:	Verbose  : "    <None Include="App.config">" was parsed as a"None"
+Parse         :	Warning  : "      <SubType>Designer</SubType>" was not parsed.
+ParseIfApplies:	Verbose  : "      <SubType>Designer</SubType>" was parsed as a"None"
+Parse         :	Warning  : "    </None>" was not parsed.
+ParseIfApplies:	Verbose  : "    </None>" was parsed as a"None"
+Parse         :	Warning  : "  </ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  <ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <BootstrapperPackage Include=".NETFramework,Version=v4.5">" was not parsed.
+ParseIfApplies:	Verbose  : "    <BootstrapperPackage Include=".NETFramework,Version=v4.5">" was parsed as a"None"
+Parse         :	Warning  : "      <Visible>False</Visible>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Visible>False</Visible>" was parsed as a"None"
+Parse         :	Warning  : "      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>" was not parsed.
+ParseIfApplies:	Verbose  : "      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>" was parsed as a"None"
+Parse         :	Warning  : "      <Install>true</Install>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Install>true</Install>" was parsed as a"None"
+Parse         :	Warning  : "    </BootstrapperPackage>" was not parsed.
+ParseIfApplies:	Verbose  : "    </BootstrapperPackage>" was parsed as a"None"
+Parse         :	Warning  : "    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">" was not parsed.
+ParseIfApplies:	Verbose  : "    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">" was parsed as a"None"
+Parse         :	Warning  : "      <Visible>False</Visible>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Visible>False</Visible>" was parsed as a"None"
+Parse         :	Warning  : "      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>" was not parsed.
+ParseIfApplies:	Verbose  : "      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>" was parsed as a"None"
+Parse         :	Warning  : "      <Install>false</Install>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Install>false</Install>" was parsed as a"None"
+Parse         :	Warning  : "    </BootstrapperPackage>" was not parsed.
+ParseIfApplies:	Verbose  : "    </BootstrapperPackage>" was parsed as a"None"
+Parse         :	Warning  : "    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">" was not parsed.
+ParseIfApplies:	Verbose  : "    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">" was parsed as a"None"
+Parse         :	Warning  : "      <Visible>False</Visible>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Visible>False</Visible>" was parsed as a"None"
+Parse         :	Warning  : "      <ProductName>.NET Framework 3.5 SP1</ProductName>" was not parsed.
+ParseIfApplies:	Verbose  : "      <ProductName>.NET Framework 3.5 SP1</ProductName>" was parsed as a"None"
+Parse         :	Warning  : "      <Install>false</Install>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Install>false</Install>" was parsed as a"None"
+Parse         :	Warning  : "    </BootstrapperPackage>" was not parsed.
+ParseIfApplies:	Verbose  : "    </BootstrapperPackage>" was parsed as a"None"
+Parse         :	Warning  : "    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">" was not parsed.
+ParseIfApplies:	Verbose  : "    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">" was parsed as a"None"
+Parse         :	Warning  : "      <Visible>False</Visible>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Visible>False</Visible>" was parsed as a"None"
+Parse         :	Warning  : "      <ProductName>SQL Server Compact 4.0 SP1</ProductName>" was not parsed.
+ParseIfApplies:	Verbose  : "      <ProductName>SQL Server Compact 4.0 SP1</ProductName>" was parsed as a"None"
+Parse         :	Warning  : "      <Install>true</Install>" was not parsed.
+ParseIfApplies:	Verbose  : "      <Install>true</Install>" was parsed as a"None"
+Parse         :	Warning  : "    </BootstrapperPackage>" was not parsed.
+ParseIfApplies:	Verbose  : "    </BootstrapperPackage>" was parsed as a"None"
+Parse         :	Warning  : "  </ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  <ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <Content Include="Dados.sdf">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Content Include="Dados.sdf">" was parsed as a"None"
+Parse         :	Warning  : "      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>" was not parsed.
+ParseIfApplies:	Verbose  : "      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>" was parsed as a"None"
+Parse         :	Warning  : "    </Content>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Content>" was parsed as a"None"
+Parse         :	Warning  : "    <Content Include="images\cabeca.jpg">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Content Include="images\cabeca.jpg">" was parsed as a"None"
+Parse         :	Warning  : "      <CopyToOutputDirectory>Always</CopyToOutputDirectory>" was not parsed.
+ParseIfApplies:	Verbose  : "      <CopyToOutputDirectory>Always</CopyToOutputDirectory>" was parsed as a"None"
+Parse         :	Warning  : "    </Content>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Content>" was parsed as a"None"
+Parse         :	Warning  : "    <Content Include="images\RODAPE.jpg">" was not parsed.
+ParseIfApplies:	Verbose  : "    <Content Include="images\RODAPE.jpg">" was parsed as a"None"
+Parse         :	Warning  : "      <CopyToOutputDirectory>Always</CopyToOutputDirectory>" was not parsed.
+ParseIfApplies:	Verbose  : "      <CopyToOutputDirectory>Always</CopyToOutputDirectory>" was parsed as a"None"
+Parse         :	Warning  : "    </Content>" was not parsed.
+ParseIfApplies:	Verbose  : "    </Content>" was parsed as a"None"
+Parse         :	Warning  : "  </ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  <ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />" was parsed as a"None"
+Parse         :	Warning  : "  </ItemGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "  </ItemGroup>" was parsed as a"None"
+Parse         :	Warning  : "  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />" was not parsed.
+ParseIfApplies:	Verbose  : "  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />" was parsed as a"None"
+Parse         :	Warning  : "  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />" was not parsed.
+ParseIfApplies:	Verbose  : "  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />" was parsed as a"None"
+Parse         :	Warning  : "  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">" was not parsed.
+ParseIfApplies:	Verbose  : "  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">" was parsed as a"None"
+Parse         :	Warning  : "    <PropertyGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "    <PropertyGroup>" was parsed as a"None"
+Parse         :	Warning  : "      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>" was not parsed.
+ParseIfApplies:	Verbose  : "      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>" was parsed as a"None"
+Parse         :	Warning  : "    </PropertyGroup>" was not parsed.
+ParseIfApplies:	Verbose  : "    </PropertyGroup>" was parsed as a"None"
+Parse         :	Warning  : "    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />" was not parsed.
+ParseIfApplies:	Verbose  : "    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />" was parsed as a"None"
+Parse         :	Warning  : "  </Target>" was not parsed.
+ParseIfApplies:	Verbose  : "  </Target>" was parsed as a"None"
+Parse         :	Warning  : "  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. " was not parsed.
+ParseIfApplies:	Verbose  : "  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. " was parsed as a"None"
+Parse         :	Warning  : "       Other similar extension points exist, see Microsoft.Common.targets." was not parsed.
+ParseIfApplies:	Verbose  : "       Other similar extension points exist, see Microsoft.Common.targets." was parsed as a"None"
+Parse         :	Warning  : "  <Target Name="BeforeBuild">" was not parsed.
+ParseIfApplies:	Verbose  : "  <Target Name="BeforeBuild">" was parsed as a"None"
+Parse         :	Warning  : "  </Target>" was not parsed.
+ParseIfApplies:	Verbose  : "  </Target>" was parsed as a"None"
+Parse         :	Warning  : "  <Target Name="AfterBuild">" was not parsed.
+ParseIfApplies:	Verbose  : "  <Target Name="AfterBuild">" was parsed as a"None"
+Parse         :	Warning  : "  </Target>" was not parsed.
+ParseIfApplies:	Verbose  : "  </Target>" was parsed as a"None"
+Parse         :	Warning  : "  -->" was not parsed.
+ParseIfApplies:	Verbose  : "  -->" was parsed as a"None"
+Parse         :	Warning  : "</Project>" was not parsed.
+ParseIfApplies:	Verbose  : "</Project>" was parsed as a"None"
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 <?xml version="1.0" encoding="utf-8"?>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <PropertyGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <ProjectGuid>{E38EE632-201B-41BF-BDF6-3807E490C9DD}</ProjectGuid>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <OutputType>WinExe</OutputType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <AppDesignerFolder>Properties</AppDesignerFolder>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <RootNamespace>GeradorDeProposta</RootNamespace>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <AssemblyName>GeradorDeProposta</AssemblyName>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <FileAlignment>512</FileAlignment>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <IsWebBootstrapper>false</IsWebBootstrapper>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <RestorePackages>true</RestorePackages>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <PublishUrl>publish\</PublishUrl>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Install>true</Install>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <InstallFrom>Disk</InstallFrom>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <UpdateEnabled>false</UpdateEnabled>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <UpdateMode>Foreground</UpdateMode>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <UpdateInterval>7</UpdateInterval>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <UpdatePeriodically>false</UpdatePeriodically>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <UpdateRequired>false</UpdateRequired>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <MapFileExtensions>true</MapFileExtensions>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <ApplicationRevision>0</ApplicationRevision>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <UseApplicationTrust>false</UseApplicationTrust>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <BootstrapperEnabled>true</BootstrapperEnabled>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </PropertyGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <PlatformTarget>AnyCPU</PlatformTarget>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <DebugSymbols>true</DebugSymbols>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <DebugType>full</DebugType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Optimize>false</Optimize>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <OutputPath>bin\Debug\</OutputPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <DefineConstants>DEBUG;TRACE</DefineConstants>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <ErrorReport>prompt</ErrorReport>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <WarningLevel>4</WarningLevel>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </PropertyGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <PlatformTarget>AnyCPU</PlatformTarget>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <DebugType>pdbonly</DebugType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Optimize>true</Optimize>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <OutputPath>bin\Release\</OutputPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <DefineConstants>TRACE</DefineConstants>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <ErrorReport>prompt</ErrorReport>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <WarningLevel>4</WarningLevel>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </PropertyGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="EntityFramework">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Reference>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="EntityFramework.SqlServer">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <HintPath>packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Reference>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.ComponentModel.DataAnnotations" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Configuration" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Core" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Data.SqlServerCe, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SpecificVersion>False</SpecificVersion>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.dll</HintPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Reference>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Data.SqlServerCe.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SpecificVersion>False</SpecificVersion>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\System.Data.SqlServerCe.Entity.dll</HintPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Reference>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Data.SqlServerCe.Entity.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SpecificVersion>False</SpecificVersion>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.Entity.resources.dll</HintPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Reference>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Data.SqlServerCe.resources, Version=4.0.0.0, Culture=pt-BR, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SpecificVersion>False</SpecificVersion>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <HintPath>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\PT\System.Data.SqlServerCe.resources.dll</HintPath>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Reference>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Data.SqlXml" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Runtime.Serialization" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Security" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Xml.Linq" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Data.DataSetExtensions" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="Microsoft.CSharp" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Data" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Deployment" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Drawing" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Windows.Forms" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Reference Include="System.Xml" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\AssemblyInfo.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\circleElement.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\imageElement.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\ItemDeProposta.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\ItensDeProposta.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\IWritable.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\lineElement.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="DadosDataSet1.Designer.cs">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <AutoGen>True</AutoGen>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DesignTime>True</DesignTime>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DependentUpon>DadosDataSet1.xsd</DependentUpon>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Compile>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\paragraphElement.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\paragraphLine.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfBadColumnIndexException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfBufferErrorException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfColor.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfDocument.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfElement.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfFont.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfHeader.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfImageIOException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfImageNotFoundException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfIncorrectColumnException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfIncorrectParagraghException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfIncorrectRowException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfInfo.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfLineStyle.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfOutlines.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfPage.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfPageTree.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfTable.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfTableColumn.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfTableHeader.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfTableRow.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfTableRowStyle.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfTrailer.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\pdfWritingErrorException.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\predefindeLineStyle.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\predefinedAlignment.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\predefinedColor.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\predefinedFont.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="Principal.cs">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SubType>Form</SubType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Compile>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="Principal.Designer.cs">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DependentUpon>Principal.cs</DependentUpon>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Compile>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\Program.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="Properties\AssemblyInfo.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\Proposta.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\rectangleElement.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\textAdapter.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="classes\textElement.cs" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <EmbeddedResource Include="Principal.resx">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DependentUpon>Principal.cs</DependentUpon>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </EmbeddedResource>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <EmbeddedResource Include="Properties\Resources.resx">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Generator>ResXFileCodeGenerator</Generator>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SubType>Designer</SubType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </EmbeddedResource>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="Properties\Resources.Designer.cs">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <AutoGen>True</AutoGen>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DependentUpon>Resources.resx</DependentUpon>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Compile>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="DadosDataSet1.xsc">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DependentUpon>DadosDataSet1.xsd</DependentUpon>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </None>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="DadosDataSet1.xsd">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Generator>MSDataSetGenerator</Generator>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <LastGenOutput>DadosDataSet1.Designer.cs</LastGenOutput>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SubType>Designer</SubType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </None>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="DadosDataSet1.xss">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DependentUpon>DadosDataSet1.xsd</DependentUpon>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </None>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="packages.config">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SubType>Designer</SubType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </None>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="Properties\DataSources\GeradorDeProposta.Properties.Resources.datasource" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="Properties\DataSources\GeradorDeProposta.Properties.Settings.datasource" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="Properties\Settings.settings">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Generator>SettingsSingleFileGenerator</Generator>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </None>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Compile Include="Properties\Settings.Designer.cs">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <AutoGen>True</AutoGen>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DependentUpon>Settings.settings</DependentUpon>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Compile>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <None Include="App.config">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <SubType>Designer</SubType>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </None>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Visible>False</Visible>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Install>true</Install>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </BootstrapperPackage>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Visible>False</Visible>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Install>false</Install>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </BootstrapperPackage>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Visible>False</Visible>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <ProductName>.NET Framework 3.5 SP1</ProductName>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Install>false</Install>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </BootstrapperPackage>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Visible>False</Visible>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <Install>true</Install>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </BootstrapperPackage>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Content Include="Dados.sdf">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Content>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Content Include="images\cabeca.jpg">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Content>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Content Include="images\RODAPE.jpg">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </Content>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </ItemGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <PropertyGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     </PropertyGroup>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </Target>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	        Other similar extension points exist, see Microsoft.Common.targets.
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <Target Name="BeforeBuild">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </Target>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   <Target Name="AfterBuild">
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   </Target>
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	   -->
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 </Project>
+GenerateMsBuildFile:	Information  : Generated file "D:\-- FONTES\proposta\GeradorDeProposta.csproj.props"
+ConvertImportedFiles:	Warning  : Cannot automatically convert imported projects, if any, unless the primary input to the tool is a dirs or sources file. You specified "D:\-- FONTES\proposta\GeradorDeProposta.csproj". Please convert each file included by "D:\-- FONTES\proposta\GeradorDeProposta.csproj" individually.
+Convert             :	Verbose  : 07/11/2016 14:57:34

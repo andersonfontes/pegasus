@@ -36,10 +36,6 @@ namespace GeradorDeProposta
             txtVolume.Enabled = false;
             ddlPeriodo.Enabled = false;
 
-            //teste
-            if (!System.IO.Directory.Exists("teste__"))
-                Directory.CreateDirectory("teste__");
-            //teste
             //btContratoComodato.Enabled = false;
             //btContratoReserva.Enabled = false;
         }
@@ -78,7 +74,7 @@ namespace GeradorDeProposta
             if (periodostr == "2 Anos") meses = 24;
             if (periodostr == "3 Anos") meses = 36;
 
-            return Math.Round(((preco-entrada) / meses / volume), 2);
+            return Math.Round(((preco - entrada) / meses / volume), 2);
         }
         private void cbComodato_CheckedChanged(object sender, EventArgs e)
         {
@@ -99,7 +95,7 @@ namespace GeradorDeProposta
             {
                 item.Condicao = "Comodato " + item.Moeda + CalculaComodato(Convert.ToDecimal(txtEntrada.Text), Convert.ToDecimal(txtPreco.Text),
                     Convert.ToDecimal(txtVolume.Text), ddlPeriodo.Text) + " adicional por m2 ";
-                if ((Convert.ToDecimal(txtEntrada.Text)!=0)) item.Condicao+="c/ entrada de "+item.Moeda+Convert.ToDecimal(txtEntrada.Text).ToString()+" ";
+                if ((Convert.ToDecimal(txtEntrada.Text) != 0)) item.Condicao += "c/ entrada de " + item.Moeda + Convert.ToDecimal(txtEntrada.Text).ToString() + " ";
                 item.Periodo = ddlPeriodo.Text;
                 item.Volume = txtVolume.Text + " m2/mês";
             }
@@ -174,9 +170,10 @@ namespace GeradorDeProposta
 
             if (txtObs.Text != "")
             {
-                myPage2.addText("Observações: " + txtObs.Text, 20, 490, predefinedFont.csHelveticaBold, 9, predefinedColor.csDarkBlue);
-
+            myPage2.addParagraph("Observações:" + txtObs.Text, 20, 510, predefinedFont.csHelveticaBold, 9, 590, predefinedColor.csDarkBlue);
             }
+
+         
 
             pdfTable myTable = new pdfTable();
             //Set table's border
@@ -208,7 +205,7 @@ namespace GeradorDeProposta
             if (!System.IO.Directory.Exists("c:\\propostas"))
                 Directory.CreateDirectory("c:\\propostas");
 
-            string newFile = @"c:\propostas\proposta_" + txtCliente.Text + "_" + ".pdf";
+            string newFile = @"c:\propostas\proposta" + txtCliente.Text + "_" + ".pdf";
 
             myDoc.createPDF(newFile);
             //myPage = null;
@@ -236,6 +233,11 @@ namespace GeradorDeProposta
                 txtPreco.Text = (Convert.ToDouble(txtPreco.Text) / 0.8).ToString("n");
                 cbGeraTradein.Enabled = false;
             }
+        }
+
+        private void txtObs_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
 

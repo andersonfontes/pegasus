@@ -42,6 +42,19 @@ C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\Gerado
 C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\obj\Release\GeradorDeProposta.csproj.GenerateResource.Cache
 C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\System.Data.SqlServerCe.dll
 C:\Users\locom\Documents\Visual Studio 2013\Projects\proposta\bin\Release\PT\System.Data.SqlServerCe.resources.dll
-D:\-- FONTES\proposta\bin\Release\GeradorDeProposta.exe.config
-D:\-- FONTES\proposta\obj\Release\GeradorDeProposta.exe
-D:\-- FONTES\proposta\obj\Release\GeradorDeProposta.pdb
+C:\Users\locom\Google Drive\proposta\bin\Release\Dados.sdf
+C:\Users\locom\Google Drive\proposta\bin\Release\GeradorDeProposta.exe.config
+C:\Users\locom\Google Drive\proposta\bin\Release\GeradorDeProposta.exe
+C:\Users\locom\Google Drive\proposta\bin\Release\GeradorDeProposta.pdb
+C:\Users\locom\Google Drive\proposta\bin\Release\EntityFramework.dll
+C:\Users\locom\Google Drive\proposta\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\locom\Google Drive\proposta\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\locom\Google Drive\proposta\bin\Release\EntityFramework.xml
+C:\Users\locom\Google Drive\proposta\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\locom\Google Drive\proposta\bin\Release\PT\System.Data.SqlServerCe.resources.dll
+C:\Users\locom\Google Drive\proposta\obj\Release\GeradorDeProposta.csprojResolveAssemblyReference.cache
+C:\Users\locom\Google Drive\proposta\obj\Release\GeradorDeProposta.Principal.resources
+C:\Users\locom\Google Drive\proposta\obj\Release\GeradorDeProposta.Properties.Resources.resources
+C:\Users\locom\Google Drive\proposta\obj\Release\GeradorDeProposta.csproj.GenerateResource.Cache
+C:\Users\locom\Google Drive\proposta\obj\Release\GeradorDeProposta.exe
+C:\Users\locom\Google Drive\proposta\obj\Release\GeradorDeProposta.pdb

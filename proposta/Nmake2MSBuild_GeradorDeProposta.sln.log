@@ -1,0 +1,140 @@
+Convert:	Verbose  : 07/11/2016 14:55:32
+ConvertFile:	Information  : Converting "D:\-- FONTES\proposta\GeradorDeProposta.sln"
+Parse      :	Verbose  : File contents after preprocessing:
+                        	Microsoft Visual Studio Solution File, Format Version 12.00
+                        	VisualStudioVersion = 12.0.31101.0
+                        	MinimumVisualStudioVersion = 10.0.40219.1
+                        	Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorDeProposta", "GeradorDeProposta.csproj", "{E38EE632-201B-41BF-BDF6-3807E490C9DD}"
+                        	EndProject
+                        	Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{16CCAB46-6C27-40B2-97AB-5955BEDB5ACB}"
+                        		ProjectSection(SolutionItems) = preProject
+                        			.nuget\NuGet.Config = .nuget\NuGet.Config
+                        			.nuget\NuGet.exe = .nuget\NuGet.exe
+                        			.nuget\NuGet.targets = .nuget\NuGet.targets
+                        		EndProjectSection
+                        	EndProject
+                        	Global
+                        		GlobalSection(SolutionConfigurationPlatforms) = preSolution
+                        			Debug|Any CPU = Debug|Any CPU
+                        			Release|Any CPU = Release|Any CPU
+                        		EndGlobalSection
+                        		GlobalSection(ProjectConfigurationPlatforms) = postSolution
+                        			{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                        			{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                        			{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                        			{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+                        			{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+                        		EndGlobalSection
+                        		GlobalSection(SolutionProperties) = preSolution
+                        			HideSolutionNode = FALSE
+                        		EndGlobalSection
+                        	EndGlobal
+Parse      :	Warning  : "Microsoft Visual Studio Solution File, Format Version 12.00" was not parsed.
+ParseIfApplies:	Verbose  : "Microsoft Visual Studio Solution File, Format Version 12.00" was parsed as a"None"
+ParseIfApplies:	Verbose  : "VisualStudioVersion = 12.0.31101.0" was parsed as a"MacroDefinition"
+ParseIfApplies:	Verbose  : "MinimumVisualStudioVersion = 10.0.40219.1" was parsed as a"MacroDefinition"
+Parse         :	Warning  : "Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorDeProposta", "GeradorDeProposta.csproj", "{E38EE632-201B-41BF-BDF6-3807E490C9DD}"" was not parsed.
+ParseIfApplies:	Verbose  : "Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorDeProposta", "GeradorDeProposta.csproj", "{E38EE632-201B-41BF-BDF6-3807E490C9DD}"" was parsed as a"None"
+Parse         :	Warning  : "EndProject" was not parsed.
+ParseIfApplies:	Verbose  : "EndProject" was parsed as a"None"
+Parse         :	Warning  : "Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{16CCAB46-6C27-40B2-97AB-5955BEDB5ACB}"" was not parsed.
+ParseIfApplies:	Verbose  : "Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{16CCAB46-6C27-40B2-97AB-5955BEDB5ACB}"" was parsed as a"None"
+Parse         :	Warning  : "	ProjectSection(SolutionItems) = preProject" was not parsed.
+ParseIfApplies:	Verbose  : "	ProjectSection(SolutionItems) = preProject" was parsed as a"None"
+Parse         :	Warning  : "		.nuget\NuGet.Config = .nuget\NuGet.Config" was not parsed.
+ParseIfApplies:	Verbose  : "		.nuget\NuGet.Config = .nuget\NuGet.Config" was parsed as a"None"
+Parse         :	Warning  : "		.nuget\NuGet.exe = .nuget\NuGet.exe" was not parsed.
+ParseIfApplies:	Verbose  : "		.nuget\NuGet.exe = .nuget\NuGet.exe" was parsed as a"None"
+Parse         :	Warning  : "		.nuget\NuGet.targets = .nuget\NuGet.targets" was not parsed.
+ParseIfApplies:	Verbose  : "		.nuget\NuGet.targets = .nuget\NuGet.targets" was parsed as a"None"
+Parse         :	Warning  : "	EndProjectSection" was not parsed.
+ParseIfApplies:	Verbose  : "	EndProjectSection" was parsed as a"None"
+Parse         :	Warning  : "EndProject" was not parsed.
+ParseIfApplies:	Verbose  : "EndProject" was parsed as a"None"
+Parse         :	Warning  : "Global" was not parsed.
+ParseIfApplies:	Verbose  : "Global" was parsed as a"None"
+Parse         :	Warning  : "	GlobalSection(SolutionConfigurationPlatforms) = preSolution" was not parsed.
+ParseIfApplies:	Verbose  : "	GlobalSection(SolutionConfigurationPlatforms) = preSolution" was parsed as a"None"
+Parse         :	Warning  : "		Debug|Any CPU = Debug|Any CPU" was not parsed.
+ParseIfApplies:	Verbose  : "		Debug|Any CPU = Debug|Any CPU" was parsed as a"None"
+Parse         :	Warning  : "		Release|Any CPU = Release|Any CPU" was not parsed.
+ParseIfApplies:	Verbose  : "		Release|Any CPU = Release|Any CPU" was parsed as a"None"
+Parse         :	Warning  : "	EndGlobalSection" was not parsed.
+ParseIfApplies:	Verbose  : "	EndGlobalSection" was parsed as a"None"
+Parse         :	Warning  : "	GlobalSection(ProjectConfigurationPlatforms) = postSolution" was not parsed.
+ParseIfApplies:	Verbose  : "	GlobalSection(ProjectConfigurationPlatforms) = postSolution" was parsed as a"None"
+Parse         :	Warning  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU" was not parsed.
+ParseIfApplies:	Verbose  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU" was parsed as a"None"
+Parse         :	Warning  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU" was not parsed.
+ParseIfApplies:	Verbose  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU" was parsed as a"None"
+Parse         :	Warning  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU" was not parsed.
+ParseIfApplies:	Verbose  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU" was parsed as a"None"
+Parse         :	Warning  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Build.0 = Release|Any CPU" was not parsed.
+ParseIfApplies:	Verbose  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Build.0 = Release|Any CPU" was parsed as a"None"
+Parse         :	Warning  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Deploy.0 = Release|Any CPU" was not parsed.
+ParseIfApplies:	Verbose  : "		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Deploy.0 = Release|Any CPU" was parsed as a"None"
+Parse         :	Warning  : "	EndGlobalSection" was not parsed.
+ParseIfApplies:	Verbose  : "	EndGlobalSection" was parsed as a"None"
+Parse         :	Warning  : "	GlobalSection(SolutionProperties) = preSolution" was not parsed.
+ParseIfApplies:	Verbose  : "	GlobalSection(SolutionProperties) = preSolution" was parsed as a"None"
+Parse         :	Warning  : "		HideSolutionNode = FALSE" was not parsed.
+ParseIfApplies:	Verbose  : "		HideSolutionNode = FALSE" was parsed as a"None"
+Parse         :	Warning  : "	EndGlobalSection" was not parsed.
+ParseIfApplies:	Verbose  : "	EndGlobalSection" was parsed as a"None"
+Parse         :	Warning  : "EndGlobal" was not parsed.
+ParseIfApplies:	Verbose  : "EndGlobal" was parsed as a"None"
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 Microsoft Visual Studio Solution File, Format Version 12.00
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorDeProposta", "GeradorDeProposta.csproj", "{E38EE632-201B-41BF-BDF6-3807E490C9DD}"
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 EndProject
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{16CCAB46-6C27-40B2-97AB-5955BEDB5ACB}"
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	ProjectSection(SolutionItems) = preProject
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		.nuget\NuGet.Config = .nuget\NuGet.Config
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		.nuget\NuGet.exe = .nuget\NuGet.exe
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		.nuget\NuGet.targets = .nuget\NuGet.targets
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	EndProjectSection
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 EndProject
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 Global
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		Debug|Any CPU = Debug|Any CPU
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		Release|Any CPU = Release|Any CPU
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	EndGlobalSection
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		{E38EE632-201B-41BF-BDF6-3807E490C9DD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	EndGlobalSection
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	GlobalSection(SolutionProperties) = preSolution
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 		HideSolutionNode = FALSE
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 	EndGlobalSection
+GenerateMsBuildFile:	Warning  : Directive type "None" was ignored and not included in the generated MSBuild file. The corresponding NMake line is :
+                                	 EndGlobal
+GenerateMsBuildFile:	Information  : Generated file "D:\-- FONTES\proposta\GeradorDeProposta.sln.props"
+ConvertImportedFiles:	Warning  : Cannot automatically convert imported projects, if any, unless the primary input to the tool is a dirs or sources file. You specified "D:\-- FONTES\proposta\GeradorDeProposta.sln". Please convert each file included by "D:\-- FONTES\proposta\GeradorDeProposta.sln" individually.
+Convert             :	Verbose  : 07/11/2016 14:55:33

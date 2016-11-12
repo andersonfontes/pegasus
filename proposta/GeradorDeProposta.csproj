@@ -201,12 +201,10 @@
     <Content Include="Dados.sdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\cabeca.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="images\RODAPE.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="images\cabeca.jpg" />
+    <Content Include="images\eqto1.jpg" />
+    <Content Include="images\eqto2.jpg" />
+    <Content Include="images\RODAPE.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

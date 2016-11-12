@@ -405,11 +405,12 @@
             // txtObs
             // 
             this.txtObs.Location = new System.Drawing.Point(96, 361);
-            this.txtObs.MaxLength = 400;
+            this.txtObs.MaxLength = 415;
             this.txtObs.Multiline = true;
             this.txtObs.Name = "txtObs";
             this.txtObs.Size = new System.Drawing.Size(636, 54);
             this.txtObs.TabIndex = 74;
+            this.txtObs.TextChanged += new System.EventHandler(this.txtObs_TextChanged);
             // 
             // cbGeraResDom
             // 
